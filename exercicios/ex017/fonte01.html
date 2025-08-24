@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em HTML</title>
+    <style>
+        body{
+            font-family: 'Work Sans' Arial, Helvetica, sans-serif; /*Ele vai testando as safe font combinations (que vai garantir que será compatível com qualquer dispositivo)*/
+            font-size: 1em;
+            /*
+            Medidas absolutas:
+            cm, mm, in, PX, pt, pc
+            
+            Medidas relativas:
+            EM (relativo ao tamanho da letra M maiúscula),
+            ex,
+            rem,
+            vw (relativa ao tamanho da tela do dispositvo, em porcentagem),
+            vh,
+            %
+            
+            As principais e recomendadas são em e px.
+
+            16px geralmente é igual a 1em
+            */
+            font-weight: normal;
+            /*lighter, normal, bold, bolder*/
+            font-style: ;
+        }
+
+        h1 {
+            /*font-family: 'Work-Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+
+            /*Shorthand font
+            - font-style -> font-weight -> font-size -> font-family */
+            font: italic bolder 1em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni molestiae laboriosam cum sint provident commodi inventore nihil totam est minima in reprehenderit iure, pariatur eum esse nostrum a ipsum quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam labore dignissimos sapiente ratione sed, suscipit fuga quasi similique nesciunt! Ducimus sapiente possimus doloribus natus eaque dolores ab quis nam impedit?
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam rem, sed aperiam et facilis corporis rerum, saepe obcaecati molestias, asperiores expedita tempore beatae modi dolor? Vel at praesentium esse ea?</p>
+
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque magni quam autem, similique, tempora eveniet molestiae minima tenetur, ea nobis expedita? Commodi laudantium facere quos fugiat consectetur, dolores maxime veritatis.</p>
+</body>
+</html>
