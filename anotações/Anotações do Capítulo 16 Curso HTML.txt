@@ -1,0 +1,42 @@
+Anotações do Capítulo 11 Curso HTML e CSS
+----------------------------------------
+Aula 1
+----------------------------------------
+
+Conceitos do modelo de Caixas
+(Funciona em HTML e CSS)
+
+----------------------------------------
+
+Uma caixa pode estar dentro da outra (aninhamento)
+
+Precisam ser passadas dois parâmetros:
+height (altura)
+width (largura)
+
+Traçando uma linha envolta (borda):
+border
+por padrão, fica bem ligada ao pontilhado que delimita o espaço de uma div
+
+Espaçando a borda do pontilhado (para dentro):
+padding
+
+Espaçando a borda da borda de outras divs (para fora):
+margin
+
+Tracejado fora da borda e fora do elemento (contorno):
+outline
+
+----------------------------------------
+Tipos de Caixa
+----------------------------------------
+a. box-level
+Sempre antes de uma caixa começar, ele pula pra linha de baixo, ocupa toda a tela com um espaço, e pula mais uma linha para continuar o conteúdo.
+exemplos: <div> <h1- h6> <p> <main> <header> <footer> <video>
+
+b. inline-level
+Não quebra linha na transição de parágrafos
+Cria uma caixa entre parágrafos que ocupa o tamanho necessário para que os parágrafos ocupem todo o espaço da div.
+exemplos: <span> <a> <code> <em> <strong> <input> <label>
+
+* todo parágrafo é uma caixa

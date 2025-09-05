@@ -1,0 +1,39 @@
+Anotações do Capítulo 10 Curso HTML e CSS
+----------------------------------------
+Aula 1
+----------------------------------------
+
+"Como cadastro meu site no Google"
+O Google vai encontrar você. Use o SEO para otimizar essa busca.
+O algoritmo de busca do Google é importante por se basear em links.
+
+/*
+Vídeo do Matt Cutis:
+Você não pesquisa na web, mas no índice de busca do google, que funciona da seguinte forma:
+indexação a partir de links e seus destinos, que ficam completamente armazenados nos servidores do Google.
+"Como o Google sabe qual documento que eu quero?"
+Fazendo várias perguntas (200), como:
+1. Quantas vezes essa página possui o termo-chave da pesquisa?
+2. A palavra aparece no título?
+3.A página inclui sinônimos dessas palavras?
+4. Qual o RankPage (criado a partir da quantidade de links externos que direcionam para ela e a importância desses links)?
+Essas perguntas fazer parte do SEO (Search Engine Otimization)
+
+*/
+
+O parâmetro "target = '_blank'" serve para abrir o link em outra aba
+O parâmetro "rel = 'external'" serve para indicar ao navegador que o link é externo
+
+----------------------------------------
+Aula 2
+----------------------------------------
+
+Para acessar uma segunda página, basta colocar o nome do arquivo como parâmetro href. é útil para entendimento do algoritmo do Google colocar o tipo de relação do link com a página atual (o parâmetro "rel")
+
+Importante usar o atalho Ctrl + Space para achar o arquivo. Mas, além disso, é importante estudar Linux, uma vez que o servidor de hospedagem do site será em Linux (Tem curso no canal do Curso em Vídeo).
+
+Artifício do Linux para fazer referências a arquivos de fora de uma pasta:
+../ significa a pasta anterior
+
+./ significa a própria pasta
+

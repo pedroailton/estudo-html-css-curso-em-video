@@ -1,0 +1,7 @@
+Anotações do Capítulo 7 Curso HTML e CSS
+
+----------------------------------------
+
+A hierarquia de títulos funciona como tópicos e subtópicos.
+
+----------------------------------------

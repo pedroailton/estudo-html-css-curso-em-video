@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+header {
+    background: linear-gradient(to top, rgb(42, 75, 84), rgb(39, 235, 166));
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0px;
+}
+
+header > nav {
+    text-align: left;
+}
+
+main {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 10px 10px;
+    background-color: white;
+}
+
+main#dandroidsimg {
+    align-self: auto;
+}
+
+h2 {
+    margin: 0px;
+    color: darkgreen;
+}
+
+h3 {
+    color: darkgreen;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.318), rgba(0, 128, 0, 0));
+}
+
+footer {
+    color: white;
+    background-color:  rgb(42, 75, 84);
+    text-align: center;
+}

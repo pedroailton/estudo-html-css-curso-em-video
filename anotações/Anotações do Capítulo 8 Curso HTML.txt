@@ -1,0 +1,49 @@
+Anotações do Capítulo 8 Curso HTML e CSS
+----------------------------------------
+
+Aula 1
+
+----------------------------------------
+
+O que significa "semântico" segundo o dicionário? 
+
+O significado dos vocábulos por oposição à sua forma.
+
+Isso é importante porque antes, no HTML4, não se usa tags com base em forma e nem interatividade.
+
+Tudo que se refere a forma está reservada a CSS. HTML é só conteúdo, só semântica.
+
+Exemplo: não existe mais a tag <u>, que fazia sublinhado, que significa apenas forma.
+
+----------------------------------------
+
+Aula 2
+
+----------------------------------------
+
+Não faz sentido usar as tags <b> e <i> para deixar em itálico e negrito, apesar de que eles ainda funcionam. O certo é tornar forte (com Strong) e ênfase (com Em) em HTML, o estilo funciona com CSS.
+
+----------------------------------------
+
+Aula 3 - Formatações adicionais em HTML
+
+----------------------------------------
+
+Mark não muda a cor. Apenas destaca para leitura.
+
+Small não se tornou obsoleto como o Big porque faz sentido ainda usar letras pequenas em um site, elas podem possuir significado (além da forma), como em observações de um contrato.
+
+----------------------------------------
+
+Aula 4
+
+----------------------------------------
+
+<code> fonte mono espaçada ótima para ler códigos.
+
+<pre> serve para considerar os espaços. Significa pré-formatação.
+
+<q> traz sentido de citação para o texto. Melhor do que usar apenas aspas
+
+<abbr> cria um pop-up para explicar a abreviação
+

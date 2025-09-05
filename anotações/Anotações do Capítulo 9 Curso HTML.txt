@@ -1,0 +1,16 @@
+Anotações do Capítulo 9 Curso HTML e CSS
+----------------------------------------
+
+Aula 1
+
+----------------------------------------
+
+Listas podem ter 2 parâmetros: type & start
+
+----------------------------------------
+
+Aula 2
+
+----------------------------------------
+
+Lista de definições contribui para o google entregar na busca mais facilmente, por se tratar de uma definição. Além disso, ela serve como dicionário.

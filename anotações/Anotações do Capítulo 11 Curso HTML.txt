@@ -1,0 +1,9 @@
+Anotações do Capítulo 11 Curso HTML e CSS
+----------------------------------------
+Aula 1
+----------------------------------------
+
+Cada site deve ser adaptado a plataforma mais utilizada para acessá-lo. Cada imagem deve ser adaptada. 
+----------------------------------------
+Aula 5
+----------------------------------------
