@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+}
+
+p {
+    font-size: 3em;
+    line-height: 1.5em;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 70px;
+}
+
+header > h1 {
+    font-size: 5em;
+}
+
+header > p {
+    font-size: 1.2em;
+}
+
+article {
+    padding: 50px 20px 50px 20px;
+    text-align: left;
+}
+
+#imagem1 {
+    background-color: black;
+    background-image: url("imagens/background001.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#imagem2 {
+    background-color: black;
+    background-image: url("imagens/background002.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.texto-com-imagem {
+    background-color: rgba(0, 0, 0, 0.704);
+    color: white;
+    width: 400px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer > p {
+    margin: 0px;
+    font-size: 1.3em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
