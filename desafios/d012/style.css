@@ -1,40 +1,82 @@
 @charset "UTF-8";
 
-body {
-    margin: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
 }
 
-p {
-    font-size: 2.5em;
-    line-height: 1.5em;
+* {
     margin: 0px;
+    padding: 0px;  
 }
+
+html, body {
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
 
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 70px;
 }
 
 header > h1 {
+    font-family: var(--fonte2);
+    padding-top: 50px;
+    font-variant: small-caps;
     font-size: 5em;
 }
 
 header > p {
     font-size: 1.2em;
+    padding-bottom: 50px;
 }
 
-article {
-    padding: 50px 20px 50px 20px;
-    margin-left: 50px ;
-    text-align: left;
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 1.75em;
+    font-size: 2.5em;
+    font-family: var(--fonte3);
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(36, 36, 36);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.584);
+}
+
+section.imagem > p {
+    display: inline-block;
+    padding: 4px;
+    background-color: rgba(0, 0, 0, 0.652);
+    text-shadow: 1px 1px 0px black;
 }
 
 #imagem1 {
     background-color: black;
     background-image: url("imagens/background001.jpg");
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -42,16 +84,10 @@ article {
 #imagem2 {
     background-color: black;
     background-image: url("imagens/background002.jpg");
-    background-position: center center;
+    background-position: right center;
     background-size: cover;
     background-attachment: fixed;
 
-}
-
-.texto-com-imagem {
-    background-color: rgba(0, 0, 0, 0.299);
-    color: white;
-    width: 400px;
 }
 
 footer {
