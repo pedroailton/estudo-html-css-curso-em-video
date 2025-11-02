@@ -1,0 +1,36 @@
+01/11/25
+----------------------------------
+Início do Módulo 4
+----------------------------------
+
+
+Aula 1
+----------------------------------
+De onde vem o nome iframe? 
+inline frame, ou "quadro em linha"
+
+Serve para abrir uma aba nova dentro de um site (uma instância)
+
+Possui problemas de segurança quanto a sites que não permitem que ele funcione
+
+
+Aula 2
+----------------------------------
+
+
+Aula 3
+----------------------------------
+Tamanhos podem ser passados como parâmetros do iframe (width e height)
+porém, se esses parâmetros forem passados por CSS, elas prevalecerão
+
+
+Aula 4
+----------------------------------
+O iframe não é recomendado para mostrar tabelas, de outra página, geralmente
+
+
+Aula 5
+----------------------------------
+Essa aula possui o objetivo de usar links para abrir diferentes iframes. Nesse caso, os iframes abertos ficaram salvos na pasta "paginas-extras" presente no repositório
+
+Usamos o parâmetro "name" no iframe para permitir a seleção por parte do parâmetro target
